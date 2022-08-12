@@ -11,6 +11,7 @@ const theif = {
         console.log("eshik yortdamida");
     }
 };
+theif.howOut();
 
 console.log(theif);
 

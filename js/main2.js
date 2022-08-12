@@ -11,7 +11,17 @@ const theif = {
         console.log("eshik yortdamida");
     }
 };
+
+const {hair, style} = theif.color;
+console.log(hair);
+console.log(style);
+
+
+
 theif.howOut();
+
+
+
 
 console.log(theif);
 

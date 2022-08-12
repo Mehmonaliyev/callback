@@ -7,6 +7,9 @@ const theif = {
         hair:"grey",
         style:"white",
     },
+    howOut: function () {
+        console.log("eshik yortdamida");
+    }
 };
 
 console.log(theif);

@@ -9,9 +9,9 @@ const arr = [8, 2, 7, 44 ,55];
 
 //  keyingi dars sortirofka
 
-arr.sort(compFero);
-console.log(arr);
+arr.sort( (a,b) => a-b);
+console.log(arr );
 
-function compFero(a , b ) {
-    return a-b;
-}
+// function compFero(a , b ) {
+//     return a-b;
+// }
